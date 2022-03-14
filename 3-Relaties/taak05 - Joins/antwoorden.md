@@ -9,4 +9,4 @@
 4. Copy paste je gemaakte SQL query hieronder
    SELECT name, platform FROM game JOIN platform ON platform.id = game.platform_id WHERE name LIKE 'FIFA%'
 5. Copy paste je gemaakte SQL query hieronder
-   SELECT name, platform FROM game JOIN platform ON platform.id = game.platform_id WHERE name LIKE "Borderlands%" OR "Borderlands2%"
+   SELECT name, platform FROM game JOIN platform ON platform.id = game.platform_id WHERE name LIKE 'Borderlands%' OR 'Borderlands2%'
