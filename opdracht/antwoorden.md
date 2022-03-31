@@ -1,7 +1,7 @@
 # Antwoorden Eindopdracht
 
 1. Copy paste je gemaakte SQL query hieronder
-SELECT races.name AS race, circuits.name AS circuit FROM circuits JOIN races ON circuits.circuitId = races.circuitId WHERE year = 2009;
+SELECT races.name AS race, circuits.name AS circuit FROM circuits JOIN races ON circuits.circuitId = races.circuitId WHERE year = 2018;
 2. Copy paste je gemaakte SQL query hieronder
 SELECT races.name as grandprix, drivers.surname, driver_standing.points FROM races JOIN driver_standing ON races.raceId = driver_standing.raceId JOIN drivers ON driver_standing.driverId = drivers.driverId WHERE races.year = 2017 AND driver_standing.points = 10 ORDER BY drivers.surname DESC;  
 3. Copy paste je gemaakte SQL query hieronder
